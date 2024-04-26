@@ -36,11 +36,12 @@ class list_adapter (val requiredContext: Context,var Details:ArrayList<listdata>
     // Override getItemCount method
     override fun getItemCount(): Int {
 
-        return Details.size
+        return Details.size // Return the size of the Details list
     }
 
+    // Override onBindViewHolder method
     override fun onBindViewHolder(holder: viewholde, position: Int) {
-
+        // Bind the data to the views in the view holder
         holder.item_name.text=Details[position].item_name
         holder.item_price.text=Details[position].item_price
         holder.item_date.text=Details[position].item_date
