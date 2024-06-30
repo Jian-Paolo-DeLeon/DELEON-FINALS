@@ -1,1 +1,3 @@
-Midterm-Examination Expense Tracker Using Kotlin De Leon-Jian-Paolo BSIT 22A1
+Finals-Examination Expense Tracker 
+Name: De Leon-Jian-Paolo 
+BSIT 22A1
